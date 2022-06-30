@@ -17,8 +17,8 @@
     - name: "2) Install the Postgresql-14 repository package RPM"
       shell: yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 
-    - name: "3) disable the built-in PostgreSQL module"
-      shell: yum -qy module disable postgresql
+#     - name: "3) disable the built-in PostgreSQL module"
+#       shell: yum -qy module disable postgresql
 
     - name: "4) Update All Repository"
       shell: yum -y update
