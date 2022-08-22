@@ -1,6 +1,6 @@
 ---
 - name: "Create User and DB and Test"
-  hosts: server
+  hosts: servers
   become: yes
   vars_files:
     - vars.yml
