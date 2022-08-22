@@ -1,6 +1,6 @@
 ---
 - name: "Install PostgreSQL 14"
-  hosts: server
+  hosts: servers
   become: yes
 
   pre_tasks:
