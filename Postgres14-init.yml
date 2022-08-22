@@ -1,6 +1,6 @@
 ---
 - name: "Initialize PostgreSQL 14 database cluster"
-  hosts: server
+  hosts: servers
   become: yes
 
   tasks:
